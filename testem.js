@@ -8,6 +8,7 @@ module.exports = {
   browser_start_timeout: 120,
   browser_args: {
     Chrome: {
+      dev: ['--remote-debugging-port=9222'],
       ci: [
         // --no-sandbox is needed when running Chrome inside a container
         process.env.CI ? '--no-sandbox' : null,
@@ -15,7 +16,7 @@ module.exports = {
         '--disable-dev-shm-usage',
         '--disable-software-rasterizer',
         '--mute-audio',
-        '--remote-debugging-port=0',
+        '--remote-debugging-port=9222',
         '--window-size=1440,900',
       ].filter(Boolean),
     },

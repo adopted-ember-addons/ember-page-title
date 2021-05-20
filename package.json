@@ -50,6 +50,7 @@
     "ember-cli-github-pages": "^0.2.0",
     "ember-cli-htmlbars": "^5.3.2",
     "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-cli-memory-leak-detector": "^0.7.1",
     "ember-cli-sass": "^10.0.1",
     "ember-cli-terser": "^4.0.1",
     "ember-cli-update": "^0.54.0",
