@@ -19,7 +19,7 @@ export default class PageTitleListService extends Service {
   @service('page-title')
   pageTitle;
 
-  @service
+  @service('router')
   router;
 
   // in fastboot context "document" is instance of
